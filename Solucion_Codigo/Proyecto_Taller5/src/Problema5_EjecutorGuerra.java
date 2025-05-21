@@ -1,20 +1,4 @@
-/**
- * La ONU (Organización de Naciones Unidad) se contacta con usted para que desarrollo una App que les permita registrar y gestionar toda la información 
- * histórica y actual relacionada con los conflictos internacionales suscitados en el mundo contemporáneo dados los siguientes requerimientos:
- * Un conflicto involucra a dos o más países, éste tiene un nombre, países involucrados, fecha de inicio, estado actual, y cualquier otro detalle adicional necesario. 
- * La App debe agregar eventos importantes relacionados con el conflicto y consultar información sobre estos eventos.
- * Un evento específico dentro de un conflicto internacional puede ser una batalla, un tratado de paz, una reunión diplomática, etc. Su información relevante es: 
- * nombre del evento, fecha en que ocurrió, ubicación y una descripción del evento, etc. Se debe tener actualizar la información del evento y consultar detalles 
- * relevantes sobre el mismo.
- * En el caso de existir eventos de batalla en más del 50% de países del mundo, declarar el estado actual del conflicto en Guerra mundial, si esta batalla ocurre 
- * entre el 50% al 30% de países del planeta, convocar a la ONU a reunión urgente.
- * En el caso de existir eventos de batalla en los países desarrollados de primer mundo, declarar de igual forma como Guerra mundial, solo si se usan armas nucleares.
- * Para el caso de los eventos que causen el 50% o mas de bajas en alguno de los países involucrados, de igual forma se debe convocar a la ONU con carácter de urgente.
- * Relacione las posibles clases modeladas con la asociación correcta. No olvide que un conflicto internacional puede tener múltiples eventos asociados, y un evento puede 
- * estar relacionado con un único conflicto internacional. Este diseño permite gestionar de manera eficiente la información sobre los conflictos internacionales y los 
- * eventos relacionados en el mundo actual.
- * @author Luis
- */
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;

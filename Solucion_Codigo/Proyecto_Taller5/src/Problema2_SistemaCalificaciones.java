@@ -1,17 +1,4 @@
-/**
- * Desarrolla un programa para gestionar las calificaciones de los estudiantes en una materia. El programa debe tener dos clases principales: "Estudiante" y "Materia".
- * Del Estudiante se registra su: nombre, edad y la materia a cruzar.
- * Esta clase debe verificar la aprobación dadas tres calificaciones de una materia: ACD (3.5/10), APE (3.5/10) y AA (3/10). Se aprueba si la sumatoria es de al menos 
- * 70%, si cumple con este requisito, se considera que ha aprobado, caso contrario informar al estudiante que deberá rendir un examen de recuperación sobre 3.5/10 pts. 
- * agregado al 60% acumulado de los componentes ACD, APE y AA.
- * Ahora, debe implementar los siguientes requisitos en su programa:
- * El programa debe permitir al usuario ingresar los datos de un estudiante, incluyendo su nombre y edad.
- * El programa debe permitir al usuario ingresar los datos de una materia, incluyendo su nombre y las calificaciones del estudiante en las categorías ACD, APE y AA.
- * El programa debe permitir al usuario vincular una materia a un estudiante, es decir, agregar la materia al estudiante.
- * El programa debe verificar si un estudiante ha aprobado una materia específica. Para ello, se deben evaluar las calificaciones del estudiante en las tres categorías 
- * (ACD, APE y AA).
- * @author Luis
- */
+
 import java.util.Scanner;
 public class Problema2_SistemaCalificaciones {
     public static void main(String[] args) {
